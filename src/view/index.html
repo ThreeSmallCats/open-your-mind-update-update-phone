@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable=no>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="open your mind，happy，图片，笑话，趣图，谜语，图片，哈哈，哈哈哈，搞笑图片，动图，猜一猜，猜猜">
+    <meta name="description" content="一个提供笑话、幽默、图片、趣图、谜语、猜一猜、搞笑、动图等数种搞笑，最搞笑、最幽默的网上笑话平台。">
+    <link href='https://cdn.webfont.youziku.com/webfonts/nomal/119547/45824/5b36e9d9f629d911fc41dbdd.css' rel='stylesheet' type='text/css'
+    />
+    <link rel="shortcut icon" href="../pic/favicon.ico" type="image/x-icon">
+    <title>打开你的思维</title>
+</head>
+
+<body>
+
+    <div class="all">
+        <!-- 翻转牌 -->
+        <div class="nav">
+            <div class="rotate-box">
+                <div class="face" data-show-type="hide" data-type='joke' id="joke">
+                    <span class="css12f3aabfb81d2fb">笑话</span>
+                </div>
+                <div class="back">
+                    <span class="iconfont">&#xf02c7;Touch Me</span>
+                    <span class="css12f3aabfb81d2fb">你开心就好</span>
+                </div>
+            </div>
+            <div class="rotate-box">
+                <div class="face" data-show-type="hide" data-type='pic' id="pic">
+                    <span class="css12f3aabfb81d2fb">图片</span>
+                </div>
+                <div class="back">
+                    <span class="iconfont">&#xf02c7;Touch Me</span>
+                    <span class="css12f3aabfb81d2fb">将是更好的表达</span>
+                </div>
+            </div>
+            <div class="rotate-box">
+                <div class="face" data-show-type="hide" data-type='guess' id="guess">
+                    <span class="css12f3aabfb81d2fb">谜语</span>
+                </div>
+                <div class="back">
+                    <span class="iconfont">&#xf02c7;Touch Me</span>
+                    <span class="css12f3aabfb81d2fb">我相信你可以</span>
+                </div>
+            </div>
+            <div class="rotate-box">
+                <div class="face" data-show-type="hide" data-type='about' id="about">
+                    <span class="css12f3aabfb81d2fb">关于</span>
+                </div>
+                <div class="back">
+                    <span class="iconfont">&#xf02c7;Touch Me</span>
+                    <span class="css12f3aabfb81d2fb">如果你想更多</span>
+                </div>
+            </div>
+        </div>
+        <!-- 下导航 -->
+        <div class="other-nav">
+            <ul class="onav-box">
+                <li class="T-item" data-onav-type="index"><span>首页</span></li>
+                <li class="T-item" data-onav-type="joke"><span>笑话</span></li>
+                <li class="T-item" data-onav-type="pic"><span>图片</span></li>
+                <li class="T-item" data-onav-type="guess"><span>谜语</span></li>
+                <li class="T-item" data-onav-type="about"><span>关于</span></li>
+            </ul>
+        </div>
+        <div class="onav-item"><span class="css12f3aabfb81d2fb">笑话</span></div>
+        <div class="onav-item"><span class="css12f3aabfb81d2fb">图片</span></div>
+        <div class="onav-item"><span class="css12f3aabfb81d2fb">谜语</span></div>
+        <div class="onav-item"><span class="css12f3aabfb81d2fb">关于</span></div>
+        <!-- 展示数据盒子 -->
+        <div class="show-box">
+            <ul class="joke"></ul>
+            <div class="pic" ></div>
+            <ul class="guess"></ul>
+            <div class="about"></div>
+        </div>
+        <!-- 谜语类型盒子 -->
+        <div class="guess-type-box">
+            <div class="guess-scroll">
+                <div class="guess-type active" data-guess-type='gxmy'>搞笑谜语</div>
+                <div class="guess-type" data-guess-type='zmmy'>字谜</div>
+                <div class="guess-type" data-guess-type='cymy'>成语谜语</div>
+                <div class="guess-type" data-guess-type='dwmy'>动物谜语</div>
+                <div class="guess-type" data-guess-type='aqmy'>爱情谜语</div>
+                <div class="guess-type" data-guess-type='dmmy'>灯谜谜语</div>
+                <div class="guess-type" data-guess-type='rmmy'>人名谜语</div>
+                <div class="guess-type" data-guess-type='dimmy'>地名谜语</div>
+                <div class="guess-type" data-guess-type='cy'>词语谜语</div>
+                <div class="guess-type" data-guess-type='dgmy'>带格谜语</div>
+                <div class="guess-type" data-guess-type='ry'>用语谜语</div>
+                <div class="guess-type" data-guess-type='wpmy'>物品谜语</div>
+                <div class="guess-type" data-guess-type='zwmy'>植物谜语</div>
+                <div class="guess-type" data-guess-type='jmmy'>名谜谜语</div>
+                <div class="guess-type" data-guess-type='sbmy'>书报谜语</div>
+                <div class="guess-type" data-guess-type='symy'>俗语谜语</div>
+                <div class="guess-type" data-guess-type='ypmy'>药品谜语</div>
+                <div class="guess-type" data-guess-type='yymy'>音乐谜语</div>
+                <div class="guess-type" data-guess-type='ysmy'>影视谜语</div>
+                <div class="guess-type" data-guess-type='cwmy'>称谓谜语</div>
+                <div class="guess-type" data-guess-type='qtmy'>趣味谜语</div>
+                <!-- <div class="guess-type" data-guess-type='miyujingxuan'>谜语精选</div> -->
+                <div class="guess-type" data-guess-type='njmy'>脑筋急转弯</div>
+                <div class="guess-type" data-guess-type='zlmy'>智力问答</div>
+            </div>
+        </div>
+        <!-- 答案盒子 -->
+        <div class="answer-box">
+            <div class="answer">
+                答案
+            </div>
+        </div>
+        <div class="more">
+            正在刷新..
+        </div>
+    </div>
+</body>
+
+</html>
