@@ -75,7 +75,7 @@ export function otherNavFn() {
                         rotateBox[a].style.top = store.rotateBoxTopArr[a]
                         faceArr[a].style.height = `100%`
                         backArr[a].style.transform = `rotateX(0deg)`
-                        faceArr[a].style.transform = `rotateX(180deg)`
+                        faceArr[a].style.transform = `rotateX(0deg)`
                     }, 5);
                 }
                 
