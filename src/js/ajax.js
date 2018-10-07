@@ -127,6 +127,8 @@ function getJoke() {
 // 获取笑话数据
 function getJokeFirst() {
     // 获取数据
+    let joke = document.querySelector('.joke')
+    joke.innerHTML = '<span>该接口已经关闭，剩下谜语接口了</span>'
     dataApi.getJoke(dataApi.pages('笑话').oldpage).then((res) => {
         let joke = document.querySelector('.joke')
         jokedata = res.showapi_res_body.contentlist
