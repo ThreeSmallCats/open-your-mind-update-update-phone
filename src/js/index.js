@@ -4,11 +4,13 @@ require('../css/index.less')
 
 import { faceAndBack } from "../js/face-and-back.js";
 import { otherNavFn } from "../js/otherNav.js";
+
+
 window.onload = function () {
     // 网站跳转
     let docwidth = window.screen.availWidth
     if (docwidth > 640) {
-        window.location.href = 'https://threesmallcats.cn'
+        window.location.href = 'https://tscats.cn/openpc'
     }
     window.addEventListener('resize',function () {
          //  屏幕可用工作区宽度
@@ -16,7 +18,7 @@ window.onload = function () {
         let docW = window.screen.availWidth
         if (docW > 640) {
             
-            window.location.href = 'https://threesmallcats.cn'
+            window.location.href = 'https://tscats.cn/openpc'
         }
     })
     // 点击翻转
